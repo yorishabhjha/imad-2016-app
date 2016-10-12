@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/page1', function (req, res) {
-  res.sendFile('page1 requested');
+  res.send('page1 requested');
 });
 
 app.get('/ui/style.css', function (req, res) {
