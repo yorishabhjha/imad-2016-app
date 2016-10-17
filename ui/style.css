@@ -4,6 +4,8 @@ body {
     margin-top: 75px;
 }
 
+
+
 #title {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
@@ -22,9 +24,17 @@ body {
     
 }
 
+header {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 400%;
+    font-family: "Times New Roman";
+}
+
 footer {
     padding-left: 10px;
     padding-top: 10px;
+    font-family: "Times New Roman";
 }
 
 .center {
