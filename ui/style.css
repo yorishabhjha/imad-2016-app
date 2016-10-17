@@ -4,6 +4,10 @@ body {
     margin-top: 75px;
 }
 
+#title {
+    font-family: comic-sans;
+}
+
 .center {
     text-align: center;
 }
