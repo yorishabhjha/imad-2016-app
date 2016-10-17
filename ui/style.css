@@ -26,6 +26,8 @@ body {
 
 #profile {
     float: right;
+    height: 42;
+    width: 42; 
 }
 
 header {
