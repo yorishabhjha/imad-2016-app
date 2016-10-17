@@ -24,6 +24,10 @@ body {
     
 }
 
+#profile {
+    float: right;
+}
+
 header {
     padding-left: 10px;
     padding-top: 10px;
