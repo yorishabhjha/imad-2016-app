@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/ui/about.html', function (req, res) {
     res.sendFile(path.join('about.html'));
-})
+});
 
 app.get('/pasha', function (req, res) {
   res.send('Ghonchu');
