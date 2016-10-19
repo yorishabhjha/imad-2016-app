@@ -14,7 +14,7 @@ app.get('/ui/about.html', function (req, res) {
 });
 
 app.get('/pasha', function (req, res) {
-  res.confirm("pashaa");
+  res.send(confirm("pashaa"));
 });
 
 
