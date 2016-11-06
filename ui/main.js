@@ -8,8 +8,8 @@ request.onreadystatechange = function(){
 		if(request.status === 200)
 		{
 			var count = request.responseText;
-			var c = document.getElementById('count');
-			c.innerHTML = count.toString();
+			var span = document.getElementById('count');
+			span.innerHTML = count.toString();
 		}
 	}
 };
