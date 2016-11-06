@@ -14,5 +14,5 @@ request.onreadystatechange = function(){
 	}
 };
 
-request.open('GET','http://yorishabhjha.imad.hasura-app.io',true);
+request.open('GET','http://yorishabhjha.imad.hasura-app.io/count',true);
 request.send(null);
