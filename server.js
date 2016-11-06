@@ -18,7 +18,7 @@ app.get('/pasha', function (req, res) {
 });
 
 var count = 0;
-app.get('/',function(req,res)
+app.get('/count',function(req,res)
 {
 	count++;
 	count.innerHtm;
