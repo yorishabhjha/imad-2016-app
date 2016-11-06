@@ -21,7 +21,6 @@ var count = 0;
 app.get('/count',function(req,res)
 {
 	count++;
-	count.innerHtm;
 });
 
 app.get('/ui/main.js', function (req, res) {
