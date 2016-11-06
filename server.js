@@ -20,7 +20,8 @@ app.get('/pasha', function (req, res) {
 var count = 0;
 app.get('/count',function(req,res)
 {
-	count++;
+    count++;
+    res.send(count.toString());
 });
 
 app.get('/ui/main.js', function (req, res) {
