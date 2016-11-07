@@ -8,7 +8,7 @@ request.onreadystatechange = function(){
 		if(request.status === 200)
 		{
 			var count = request.responseText;
-			document.getElementById("count").innerHTML = count.toString();
+			document.getElementById("count").innerHTML = "count.toString()";
 		}
 	}
 };
