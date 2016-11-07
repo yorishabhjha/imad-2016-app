@@ -9,7 +9,7 @@ request.onreadystatechange = function(){
 		{
 			var count = request.responseText;
 			var span = document.getElementById('count');
-			span.innerHTML = count.toString();
+			span.innerHTML = 'test';
 		}
 	}
 };
