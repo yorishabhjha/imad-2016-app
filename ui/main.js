@@ -9,9 +9,13 @@ request.onreadystatechange = function(){
 		{
 			var count = request.responseText;
 			var span = document.getElementById('count');
-			span.innerHTML = 'test';
+			span.innerHTML = count.toString();
 		}
+		else
+		span.innerHTML = test1;
 	}
+	else
+		span.innerHTML = test2;
 };
 
 request.open('GET','http://yorishabhjha.imad.hasura-app.io/count',true);
