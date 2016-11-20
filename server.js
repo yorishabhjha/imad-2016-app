@@ -5,6 +5,53 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var pentest = {
+    title : 'Penetration testing',
+    heading : 'Penetration testing',
+    content :  `
+                `,
+};
+
+function createTemplate(data){
+    title = data.title;
+    heading = data.heading;
+    content = data.content;
+    
+    var html = `
+    <html>
+    <head>
+    <title>
+        ${title}
+    </title>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="title" h1>
+            ${heading}
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/ui/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        <br><hr>
+        <div>
+            ${content}
+        </div>
+        <br><hr>
+        <footer>
+            Underconstruction
+            &copy; yoRishabhJha 2016
+        </footer>
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
+    </body>
+</html>
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
